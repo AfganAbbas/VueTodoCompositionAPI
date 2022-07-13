@@ -1,0 +1,17 @@
+{
+  "extends": ["plugin:vue/base"],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "vue/multi-word-component-names": "off"
+  }
+}
